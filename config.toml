@@ -9,11 +9,7 @@
 baseurl = "https://sb17v.github.io/"
 
 # Title of your site
-title = "Academic"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+title = "Subhadeep Bhattacharya"
 
 theme = "academic"
 enableEmoji = true
@@ -51,22 +47,22 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Subhadeep Bhattacharya"
+  role = "Graduate Research Assistant"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Computer Architecture and SysTems Research Lab", url = "http://castl.cs.fsu.edu/doku.php" },  { name = "Florida State University", url = "https://www.fsu.edu/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "sb17v@my.fsu.edu"
+  address = "MCH 114, Carothers Hall, Florida State University, Florida, 32304, USA"
+  office_hours = "Monday-Friday 09:30 to 05:30"
+  phone = "+1 (850) 405 8352"
+  skype = "subhadeepit94_1"
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -247,22 +243,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:sb17v@my.fsu.edu"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
+    link = "#"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "#"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "https://github.com/sb17v"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -342,13 +338,13 @@ enableGitInfo = false
   languageCode = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
+#[languages.bn]
+#  languageCode = "bn-IN"
+#  title = "Bengali Website Title"
+#  [languages.bn.params]
+#    name = "Subhadeep Bhattacharya"
+#    role = "Your role in Bengali..."
+#  [[languages.bn.menu.main]]
+#    name = "Bengali"
 #    url = "#about"
 #    weight = 1

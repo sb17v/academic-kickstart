@@ -1,0 +1,205 @@
+\documentclass[margin,line]{res}
+%\usepackage{layout}
+
+%\setlength{\voffset}{0in}
+%\setlength{\headsep}{5pt}
+\usepackage{amssymb}
+\usepackage[bookmarks,bookmarksopen,bookmarksdepth=2]{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\oddsidemargin -.6in
+\evensidemargin -.5in
+\textwidth=6.35in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Subhadeep Bhattacharya \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+\begin{tabular}{@{}p{2in}p{4in}}
+1405 Raa Avenue & {\it Cell:}  (+1) 850-405-8352 {\it Skype:}    
+\href{https://join.skype.com/invite/S9OC09imwnsO}{\nolinkurl{subhadeepit94\_1}}\\
+            
+Tallahassee & {\it E-mail:} 
+\href{mailto:sb17v@my.fsu.edu}{\nolinkurl{sb17v@my.fsu.edu} } \\
+FL 32303 & {\it 
+LinkedIn:} \url{www.linkedin.com/in/subhadeep-bhattacharya-fsu}
+ \\
+ & {\it Github:} \url{https://github.com/sb17v} \\
+ & {\it Website:} \url{https://sb17v.github.io} \\
+\end{tabular}
+
+\vspace*{-.15in}
+
+%\section{\sc Objective}
+%To be part of an organization that initiates learning process and provides a
+%platform for continuous growth.
+
+%\vspace*{-.15in}
+
+\section{\sc Current Employer}
+{\bf \href{http://www.cs.fsu.edu/}{Department of Computer Science, Florida State University}}, Tallahassee, Florida
+
+\vspace{-.4cm}
+\textbf{{\em Graduate Research Assistant}} \hfill {\bf August, 2017 - Till Date}\\
+Working in \textbf{\textit{\href{http://castl.cs.fsu.edu/doku.php/}{Computer Architecture and SysTems Research Lab (CASTL)}}} under the supervision of \textit{\href{https://www.cs.fsu.edu/~yuw/}{Professor Dr. Weikuan Yu}}
+
+\vspace*{-.15in}
+
+\section{\sc Research Interests}
+\begin{list2}
+\item \textbf{High Performance Computing:} Parallel Programming Models, 
+Communication Conduits for High End Interconnects
+\item \textbf{Bioinformatics: } Microarray Data Analysis
+\item \textbf{Artificial Intelligence: } Machine Learning and Deep Learning 
+Frameworks
+\end{list2}
+
+\vspace*{-.15in}
+
+\section{\sc Education}
+{\bf \href{http://www.fsu.edu}{Florida State University}}, Tallahassee, Florida\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] PhD, \href{http://www.cs.fsu.edu/}{Computer Science}, Currently studying, \textit{CGPA} \textbf{4.00}/4.00
+\end{list1}
+\vspace*{-.15in}
+{\bf \href{http://www.stcet.org/}{St. Thomas' College of Engineering and 
+Technology}}, Kolkata, India\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Bachelor of Science, Information Technology, February 2013, 
+\textit{DGPA} \textbf{8.54}/10.00
+\end{list1}
+%\vspace*{-.15in}
+%{\bf \href{https://www.hooghlycollegiateschool.org/}{Hooghly Collegiate 
+%		School}}, Chinsurah, India\\
+%\vspace*{-.15in}
+%\begin{list1}
+%\item[] Higher Secondary Examination(HSE), Science, 2011, \textit{Percentage} 
+%\textbf{78.42\%}
+%\end{list1}
+%\vspace*{-.15in}
+%{\bf Magra Uttamachandra High School}, Mogra, India\\
+%\vspace*{-.15in}
+%\begin{list1}
+%\item[] Secondary Examination(SE), 2009, \textit{Percentage} 
+%\textbf{82.55\%}
+%\end{list1}
+
+\vspace*{-.15in}
+
+\section{\sc Research Projects}
+\begin{list2}
+\item {\bf \href{https://github.com/ornl-languages/ornl-openshmem/}{OpenSHMEM-X 
+Libfabric 
+Conduit Implementation }:} Working on a project with 
+\href{https://www.ornl.gov/}{Oak Ridge National Laboratory} for implementing a 
+communication conduit for OpenSHMEM-X using OFI Libfabric and trying to improve 
+its portability and performance.
+\item {\bf SHMEMCache on Hybrid Memory Architecture:} Working on a project with 
+\href{https://www.ornl.gov/}{Oak Ridge National Laboratory} to enable Hybrid 
+Memory Scheme for 
+\href{http://ww2.cs.fsu.edu/~fu/files/shmemcache-ccgrid17-paper.pdf}{SHMEMCache}.
+\item {\bf Spark:} Study of different shuffling mechanisms present in Spark and 
+implemention of a custom logger for collecting different parameters related to 
+shuffling phase to understand their characteristics.
+\end{list2}
+
+\vspace*{-.15in}
+
+\section{\sc Academic Projects}
+\begin{list2}
+\item {\bf Simple shell:} An simplified Unix shell implemented using C++
+\item {\bf Compiler for MicroC:} Compiler for a simple C-inspired programming 
+language using C, Flex and Yacc
+\item {\bf Pretty printer:} A simple pretty printer that takes any C code and 
+produce a reformatted HTML
+\item {\bf Single-pass compiler:} A simple single pass compiler using C
+\item {\bf Analysis of Microarray data to find out Important and Informative 
+Genes:} A system implemented using Matlab to study the gene expression from
+Microarray data set, estimate the missing gene expressions and determine an 
+ensemble of classifiers to correctly identify the diseased samples
+from the non-diseased one
+\item {\bf Blue-Droid:} An Intelligent Library Management System on Android
+%\item {\bf Library Management System:} A Library Management System for College
+%\item {\bf Audio Library:} A simple Audio Library using Visual Basic
+\end{list2}
+
+\vspace*{-.15in}
+
+\section{\sc Selected \\Publication}
+{\bf Subhadeep Bhattacharya}, Shaeke Salman, Manjunath Gorentla Venkata, Harsh 
+Kundnani, Neena Imam, Weikuan Yu. 
+{\href{https://www.csm.ornl.gov/workshops/openshmem2018/presentations/openshmem18-paper5.pdf}{\textit{An
+			Initial Implementation of Libfabric Conduit for OpenSHMEM-X.}}} 
+			OpenSHMEM 2018: 
+Fifth Workshop on OpenSHMEM and Related Technologies (Baltimore, Maryland). 
+August 2018.
+
+\vspace*{-.15in}
+
+%\section{\sc Academic Achievements} 
+%\begin{list2}
+%\item Full tuition fee waiver, West Bengal Freeship Scheme, 2011 - 2015
+%\item West Bengal Govt. Merit-cum-Means Scholarship Scheme, 2009 - 2011
+%\end{list2}
+
+%\vspace*{-.15in}
+
+\section{\sc Industry Experience}
+{\bf \href{https://www.infosys.com/}{Infosys}}, Bengaluru, India
+
+\vspace{-.4cm}
+\textbf{{\em Systems Engineer}} \hfill {\bf Sept, 2015 - August, 2017}\\
+Worked as a {\bf Java and NodeJS} application developer for developing 
+Application and Microservices layer for different web applications specifically 
+MyAccount and NBN+ for the Australian telecommunications company
+\textbf{\textit{\href{https://www.telstra.com.au/Telstra/}{Telstra}}}
+
+\vspace*{-.15in}
+
+\section{\sc Technical \\Skills}
+\begin{list2}
+\item[ - ] Programming Languages: C/C\texttt{++}, Python, Java, Matlab, 
+Javascript, Jquery, NodeJS, TypeScript
+\item[ - ] Database Management Systems: MySQL, Oracle, SQL Server
+\item[ - ] Frameworks: Sandia OpenSHMEM, ORNL OpenSHMEM-X, UCX, OFI Libfabric, 
+Horovod, Spring Boot, Spring MVC, JSF, Hibernate, 
+Mockito, Rabbit MQ, APIGEE, Camunda, Qt Framework
+\item[ - ] Operating Systems: Unix/Linux, Windows
+\item[ - ] Others: \LaTeX, Doxygen, Git, SVN, Jira, Confluence, Stash, Bamboo
+\end{list2}
+
+\vspace*{-.15in}
+
+\end{resume}
+\end{document}
+
