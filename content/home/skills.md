@@ -4,7 +4,7 @@ widget = "featurette"  # Do not modify this line!
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = true
+active = false
 
 title = "Skills"
 subtitle = ""
@@ -23,20 +23,32 @@ weight = 7
 
 [[feature]]
   icon = "C/C++"
-  icon_pack = "fab"
+  icon_pack = "fas"
   name = "C/C++"
-  description = "90%"
+  description = ""
   
 [[feature]]
   icon = "Java"
   icon_pack = "fas"
   name = "Java"
-  description = "100%"  
+  description = ""  
+
+[[feature]]
+  icon = "Python"
+  icon_pack = "fas"
+  name = "Python"
+  description = ""
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "MPI"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "MPI"
+  description = ""
+
+[[feature]]
+  icon = "OpenSHMEM"
+  icon_pack = "fas"
+  name = "OpenSHMEM"
+  description = ""
 
 +++

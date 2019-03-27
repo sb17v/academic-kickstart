@@ -11,7 +11,8 @@ weight = 5
 [interests]
   interests = [
     "High Performance Computing",
-    "Artificial Intelligence",
+    "Parallel Programming Models",
+    "Distributed Deep Learning",
     "Bioinformatics"
   ]
 
