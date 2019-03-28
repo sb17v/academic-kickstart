@@ -20,6 +20,7 @@ folder = "project"
 # Legend: 0 = list, 1 = cards.
 view = 1
 
+
 # Filter toolbar.
 
 # Default filter index (e.g. 0 corresponds to the first `[[filter]]` instance below).
@@ -33,13 +34,21 @@ filter_default = 0
 #   name = "All"
 #   tag = "*"
 #
- [[filter]]
-   name = "Deep Learning"
-   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+    name = "All"
+    tag = "*"
+
+[[filter]]
+    name = "SHMEM"
+    tag = "OpenSHMEM"
+
+[[filter]]
+    name = "Distributed Deep Learning"
+    tag = "Distributed Deep Learning"
+  
+[[filter]]
+    name = "Spark"
+    tag = "Spark"
 
 +++
 
